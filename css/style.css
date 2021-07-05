@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.profile-page {
+#profile-page {
     height: 1200px; /*todo: da rimuovere*/
     width: 600px;
     margin: 0 auto;
