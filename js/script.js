@@ -17,6 +17,11 @@ const data = {
             }, {
                 text: "Mi sono iscritto in palestra!",
                 date: '16-06-2021'
+            },
+            {
+                text: 'Vi presento il mio amico Mimmo',
+                mediaPath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Supernerd_%283262512306%29.jpg/1024px-Supernerd_%283262512306%29.jpg',
+                date: '17-06-2021'
             }
         ]
     }
