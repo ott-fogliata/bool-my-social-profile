@@ -21,3 +21,12 @@ const data = {
         ]
     }
 };
+
+var userDetailHtml = document.querySelector(".user-details")
+
+userDetailHtml.innerHTML = `
+    <div class="user-pic"><img src="${data.myProfile.details.pic}" alt="user pic"></div>
+    <div class="user-name">${data.myProfile.details.name} ${data.myProfile.details.surname} </div>
+`
+
+// in vuejs sarà: {{ myProfile.details.name }}
