@@ -24,13 +24,13 @@
         </div>
 
         <div class="new-post">
-            <textarea placeholder="A cosa stai pensando?"></textarea>
-            <button class="send">CREA</button>
+            <textarea v-model="newPostText" placeholder="A cosa stai pensando?"></textarea>
+            <button class="send" @click="postNewMessage">CREA</button>
         </div>
 
         <div class="post-list">
 
-            <div v-for = 'post in myProfile.posts' class="post">
+            <div v-for='post in myProfile.posts' class="post">
                 <div class="post-details">
                     <div class="user-pic">
                         <img :src="myProfile.details.pic" alt="user pic">
@@ -54,6 +54,8 @@
         </div>
 
     </div>
+
+    
     <script src="./js/script-vue.js"></script>
 </body>
 </html>

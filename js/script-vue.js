@@ -29,7 +29,17 @@ new Vue(
                         date: '17-06-2021'
                     }
                 ]
-            }
+            },
+            newPostText: '',
         },
+        methods: {
+            postNewMessage: function () {
+                this.myProfile.posts.push({
+                    text: this.newPostText,
+                    date: '25-06-2021'
+                })
+                this.newPostText = '';
+            }
+        }
     }
 );
